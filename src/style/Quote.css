@@ -4,11 +4,12 @@
     background-color: rgb(255, 255, 255);
     margin: 0px 3%;
     padding: 5px;
+    border-radius: 5px;
 }
 /* ------------------------------ */
 
 .quote-text{
-    min-width: 300px;
+    
     max-width: 600px;
     padding: 5%;
     font-size: 20px;
@@ -86,6 +87,7 @@
 
 @media only screen and (min-width: 1024px){
     #quote-box{
+        min-width: 400px;
         max-width: 600px;
     }
 
@@ -108,10 +110,5 @@
     #new-quote{
         font-size: 20px;
         height: 100%;
-    }
-
-    #new-quote::after{
-        top: 10px;
-        left: 10px;
     }
 }
